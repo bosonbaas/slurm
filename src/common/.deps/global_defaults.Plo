@@ -1,3 +1,0 @@
-global_defaults.lo: global_defaults.c /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:

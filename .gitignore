@@ -1,5 +1,6 @@
 *.o
 *.la
+*.Po
 *.lo
 .*.swp
 .*.swo

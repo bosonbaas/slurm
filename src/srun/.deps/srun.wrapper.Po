@@ -1,3 +1,0 @@
-srun.wrapper.o: srun.wrapper.c /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:
