@@ -510,6 +510,8 @@ generateJob(job_trace_t* jobd) {
 	dmesg.cpus_per_task = jobd->cpus_per_task;
 	dmesg.min_nodes     = jobd->tasks;
 	dmesg.ntasks_per_node = jobd->tasks_per_node;
+  dmesg.nice = jobd->nice;
+//  printf("\n Running job with niceness %u\n", jobd->nice);
 
 	/* Need something for environment--Should make this een more generic! */
 	dmesg.environment  = (char**)malloc(sizeof(char*)*2);

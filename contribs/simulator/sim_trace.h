@@ -23,6 +23,7 @@ typedef struct job_trace {
     char account[MAX_QOSNAME];
     int  cpus_per_task;
     int  tasks_per_node;
+    int  nice;
     char reservation[MAX_RSVNAME];
     char dependency[MAX_DEPNAME];
     struct job_trace *next;
